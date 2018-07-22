@@ -20,7 +20,9 @@ struct node *head = NULL;
         {
         	node *t = head;
         	while(t->next!= NULL)
-            t =t->next;
+            {
+		    t =t->next;
+	    }
             t->next = temp;
         }
     }
@@ -33,25 +35,30 @@ struct node *head = NULL;
     	cout<<"enter the value after which you want to insert";
     	cin>>val;
     	node *t = head;
+	bool flag = 0;
     	while(t->data!=val){
     		t = t->next;
     	}
+	if(t->data == val)
+		flag = 1;
+	if(flag == 1){
     	temp->next = t->next;
     	t->next = temp;
+	}
     }
     void insertFront(){
     	node *temp = new node;
     	int val;
     	cout<<"enter the value you want to insert";
     	cin>>temp->data;
-    	node *t = head;
     	temp->next = NULL;
     	if(head==NULL){
     		head = temp;
     	}
     	else{
-    		temp=temp->next;
-    		head = temp;
+    		node *t = head;
+		temp->next  = t;
+		head = temp;
     	}
     }
     void deleteFront(){
@@ -79,7 +86,18 @@ struct node *head = NULL;
 
     }
     void deleteEnd(){
-
+        if(head == NULL){
+    		cout<<endl<<"List is empty";
+        }
+        else
+        {
+        	node *t = head;
+        	while(t->next!= NULL)
+            	{
+		    t =t->next;
+	    	}
+		delete t;
+        }
     }
     void display(){
     	 node* n=head;
