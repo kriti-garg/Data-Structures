@@ -33,11 +33,16 @@ struct node *head = NULL;
         cout<<"enter the value after which you want to insert";
         cin>>val;
         node *t = head;
+        bool flag=0;
         while(t->data!=val){
             t = t->next;
         }
+        if(t->data==val)
+            flag=1;
+        if(flag==1){
         temp->next = t->next;
         t->next = temp;
+    }
     }
     void insertFront(){
         node *temp = new node;
@@ -77,8 +82,13 @@ struct node *head = NULL;
         }
         else{
             node *t = head;
-            while(t->data!=NULL)
+            node *temp;
+            while(t->data!=val){
+                 temp=t;
                 t= t->next;
+                }
+            temp->next=t->next;
+            temp = temp->next;
             delete t;
         }
     }
@@ -89,12 +99,11 @@ struct node *head = NULL;
         }
         else{
             node *t= head;
-            node *temp;
-            while(t->next!=NULL){
-                temp=t;
+           
+            while(t->next && t->next->next!=NULL){
                 t= t->next;
             }
-            delete t;
+            delete t->next;
             t->next=NULL;
         }
 
@@ -114,12 +123,13 @@ struct node *head = NULL;
 int main()
 {
     int choice;
+     cout<<"1 for insertion at head"<<endl<<"2 for insertion at middle"<<endl<<"3 for insertion at end";
+    cout<<endl<<"4 for deletion at head"<<endl<<"5 for deletion at middle"<<endl<<"6 for deletion at end";
+    cout<<endl<<"7 for display"<<endl;
    
     while(1){
-    cout<<endl<<endl<<"enter the choice"<<endl;
-    cout<<"1 for insertion at head"<<endl<<"2 for insertion at middle"<<endl<<"3 for insertion at end";
-    cout<<endl<<"4 for deletion at head"<<endl<<"5 for deletion at middle"<<endl<<"6 for deletion at end";
-    cout<<endl<<"7 for display"<<endl<<endl;
+    cout<<endl<<"enter the choice"<<endl;
+   
     cin>>choice;
     switch(choice){
         case 1:{
