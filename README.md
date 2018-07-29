@@ -1,2 +1,2 @@
 # practice
-# It consists of the Data Structure Codes.
+It consists of the Data Structure Codes.
