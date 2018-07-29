@@ -8,3 +8,4 @@ It consists of the Data Structure Codes.
 <a href="https://github.com/kriti-garg/practice/blob/master/singlyLinkedList.cpp">5)Singly Linked List</a><br>
 <a href="https://github.com/kriti-garg/practice/blob/master/doublyLinkedList.cpp">6)Doubly Linked List</a><br>
 <a href="https://github.com/kriti-garg/practice/blob/master/class_singleLinkedList.cpp">7)Singly Linked List using Class</a><br>
+<a href="https://github.com/kriti-garg/practice/blob/master/terminateWhen10.cpp">8)Scenario Based Question</a>
