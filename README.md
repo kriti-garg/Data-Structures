@@ -9,3 +9,6 @@ It consists of the Data Structure Codes.
 <a href="https://github.com/kriti-garg/practice/blob/master/doublyLinkedList.cpp">6)Doubly Linked List</a><br>
 <a href="https://github.com/kriti-garg/practice/blob/master/class_singleLinkedList.cpp">7)Singly Linked List using Class</a><br>
 <a href="https://github.com/kriti-garg/practice/blob/master/terminateWhen10.cpp">8)Scenario Based Question</a>
+<br>
+<a href="https://github.com/kriti-garg/practice/blob/master/stack_array.cpp">9)Stack Using Arrays</a><br>
+<a href="https://github.com/kriti-garg/practice/blob/master/stack_LinkedList.cpp">10)Stack Using Linked List</a>
