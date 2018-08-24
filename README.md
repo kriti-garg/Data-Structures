@@ -11,4 +11,6 @@ It consists of the Data Structure Codes.
 <a href="https://github.com/kriti-garg/practice/blob/master/terminateWhen10.cpp">8)Scenario Based Question</a>
 <br>
 <a href="https://github.com/kriti-garg/practice/blob/master/stack_array.cpp">9)Stack Using Arrays</a><br>
-<a href="https://github.com/kriti-garg/practice/blob/master/stack_LinkedList.cpp">10)Stack Using Linked List</a>
+<a href="https://github.com/kriti-garg/practice/blob/master/stack_LinkedList.cpp">10)Stack Using Linked List</a><br>
+<a href="https://github.com/kriti-garg/practice/blob/master/InfixPostfix.cpp">11)Infix to Postfix Evaluation using stack</a><br>
+<a href="https://github.com/kriti-garg/practice/blob/master/TowerHanoi.cpp">12)Tower of Hanoi Problem</a>
