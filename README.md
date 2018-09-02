@@ -1,4 +1,4 @@
-# practice
+# Practice
 It consists of the Data Structure Codes.
 <br>
 <a href="https://github.com/kriti-garg/practice/blob/master/BinarySearch.java">1)Binary Search</a><br>
@@ -19,3 +19,5 @@ It consists of the Data Structure Codes.
 <a href="https://github.com/kriti-garg/practice/blob/master/Queue.cpp">15) Queue using array</a><br>
 <a href="https://github.com/kriti-garg/practice/blob/master/CircularQueue.cpp">16)Circualar Queue using array</a><br>
 <a href="https://github.com/kriti-garg/practice/blob/master/DequeUsing_STL.cpp">17)Deque using STL</a><br>
+<a href="https://github.com/kriti-garg/practice/blob/master/DequeUsingArrays.cpp">18)Deque using circular array</a><br>
+<a href="https://github.com/kriti-garg/practice/blob/master/PriorityQueueSTL.cpp">19)Priority Queue using STL</a><br>
