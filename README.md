@@ -21,3 +21,4 @@ It consists of the Data Structure Codes.
 <a href="https://github.com/kriti-garg/practice/blob/master/DequeUsing_STL.cpp">17)Deque using STL</a><br>
 <a href="https://github.com/kriti-garg/practice/blob/master/DequeUsingArrays.cpp">18)Deque using circular array</a><br>
 <a href="https://github.com/kriti-garg/practice/blob/master/PriorityQueueSTL.cpp">19)Priority Queue using STL</a><br>
+<a href="https://github.com/kriti-garg/practice/blob/master/QueueLinkedList.cpp">20)Queue using Linked List</a><br>
