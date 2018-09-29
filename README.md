@@ -16,9 +16,9 @@ It consists of the Data Structure Codes.
 <a href="https://github.com/kriti-garg/practice/blob/master/stack/TowerHanoi.cpp">12)Tower of Hanoi Problem</a><br>
 <a href="https://github.com/kriti-garg/practice/blob/master/stack/Postfix2InfixEvaluation.cpp">13)Postfix to Infix Evaluation using Stack</a><br>
 <a href="https://github.com/kriti-garg/practice/blob/master/stack/StackEqual.cpp">14)Are Parenthesis Equal using Stack</a><br>
-<a href="https://github.com/kriti-garg/practice/blob/master/Queue/Queue.cpp">15) Queue using array</a><br>
-<a href="https://github.com/kriti-garg/practice/blob/master/Queue/CircularQueue.cpp">16)Circualar Queue using array</a><br>
-<a href="https://github.com/kriti-garg/practice/blob/master/Queue/DequeUsing_STL.cpp">17)Deque using STL</a><br>
-<a href="https://github.com/kriti-garg/practice/blob/master/Queue/DequeUsingArrays.cpp">18)Deque using circular array</a><br>
-<a href="https://github.com/kriti-garg/practice/blob/master/Queue/PriorityQueueSTL.cpp">19)Priority Queue using STL</a><br>
-<a href="https://github.com/kriti-garg/practice/blob/master/Queue/QueueLinkedList.cpp">20)Queue using Linked List</a><br>
+<a href="https://github.com/kriti-garg/practice/blob/master/queue/Queue.cpp">15) Queue using array</a><br>
+<a href="https://github.com/kriti-garg/practice/blob/master/queue/CircularQueue.cpp">16)Circualar Queue using array</a><br>
+<a href="https://github.com/kriti-garg/practice/blob/master/queue/DequeUsing_STL.cpp">17)Deque using STL</a><br>
+<a href="https://github.com/kriti-garg/practice/blob/master/queue/DequeUsingArrays.cpp">18)Deque using circular array</a><br>
+<a href="https://github.com/kriti-garg/practice/blob/master/queue/PriorityQueueSTL.cpp">19)Priority Queue using STL</a><br>
+<a href="https://github.com/kriti-garg/practice/blob/master/queue/QueueLinkedList.cpp">20)Queue using Linked List</a><br>
