@@ -25,7 +25,6 @@ void mergeSort(int arr[],int l, int r){
         merge(arr,l,mid,r);
     }
 }
-
 int main(){
     int n;
     cin>>n;
