@@ -25,18 +25,18 @@ public:
     arr[front] = ele;
   }
   void insert_back(int ele){
-    if(isEmpty()){
-      cout<<"Underflow"<<endl;
+    if(isFull){
+      cout<<"Overflow"<<endl;
       return;
     }
     if(front==rear){
       front=-1;
       rear=-1;
     }
-    else if(front==size-1)
-    front=0;
-    else
-    front++;
+    else if(rear==size-1)
+	rear = 0;
+    else rear++;
+	arr[rear] = ele;
   }
 
   void delete_front(){
