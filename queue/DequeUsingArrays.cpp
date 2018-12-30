@@ -29,9 +29,9 @@ public:
       cout<<"Overflow"<<endl;
       return;
     }
-    if(front==rear){
-      front=-1;
-      rear=-1;
+    if(front==-1){
+      front=0;
+      rear=0;
     }
     else if(rear==size-1)
 	rear = 0;

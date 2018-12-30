@@ -14,7 +14,6 @@ public:
 
 void node::push(){
 	 node *temp = new node;
-        int val;
         cout<<"enter the value you want to insert";
         cin>>temp->data;
         node *t = top;
@@ -28,7 +27,7 @@ void node::push(){
             top = temp;
         }
 	}
-	void node::pop(){
+void node::pop(){
 		node *t = top;
 		if(t==NULL){
 			cout<<"\nList is empty";
@@ -39,7 +38,7 @@ void node::push(){
 			delete t;
 		}
 	}
-	void node::display(){
+void node::display(){
 		node* t=top;
 		if(t==NULL){
 			cout<<"\nList is empty";

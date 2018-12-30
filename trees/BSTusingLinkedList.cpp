@@ -67,12 +67,12 @@ tree* deleteNode(tree* root,int val){
     else{
       if(root->right==NULL){
         tree* temp = root->left;
-        free(root);
+        delete(root);
         return (temp);
       }
       else if(root->left==NULL){
         tree* temp = root->right;
-        free(root);
+        delete(root);
         return (temp);
       }
       tree* temp = minValueNode(root->right);
