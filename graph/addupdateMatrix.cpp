@@ -29,9 +29,9 @@ int main(){
         adj[x][y]=1;
         //adj[y][x]=1;
     }
-    for(int i=1;i<=vertices+1;i++)
+    for(int i=1;i<=vertices;i++)
     {
-        for(int j=1;j<=vertices+1;j++)
+        for(int j=1;j<=vertices;j++)
         cout<<adj[i][j]<<" ";
         cout<<endl;
     }
